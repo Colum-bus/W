@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota|Comfortaa&display=swap&subset=cyrillic');
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Bellota', cursive;
+    background: center / cover no-repeat url(https://s2.best-wallpaper.net/wallpaper/2560x1440/1809/Forest-fog-morning_2560x1440.jpg);
+}
+
+h1 {
+    font-family: 'Comfortaa', serif;
+    text-align: center;
+}
+
+form {
+    border: 1px solid rgb(0, 0, 0);
+    width: 20%;
+    margin: 10px auto;
+    padding: 5px;
+    background: rgba(88, 197, 146, 0.7);
+    border-radius: 15px;
+    text-align: center;
+}
+
+form * {
+    display: block;
+}
+
+input {
+    width: 100%;
+    margin: 10px, auto;
+    line-height: 20px;
+    border-radius: 7px;
+    outline: none;
+    background: rgba(202, 173, 93, 0.788);
+    border: 0;
+    text-align: center;
+}
+
+input[type="submit"] {
+    width: 60%;
+    margin: 10px auto;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    filter: drop-shadow(1px 2px rgb(207, 65, 55));
+    transition: filter 1.5s;
+    transform: scale(0.7);
+    transition: transform 3s;
+}
+
+a {
+    text-align: center;
+    color: rgb(133, 114, 62);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+label {
+    margin-bottom: 7px;
+}
+

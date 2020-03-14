@@ -1,0 +1,82 @@
+/* * {
+    border: 1px solid;
+} */
+
+body {
+    height: initial;
+}
+
+div.card {
+    width: 220px;
+    margin: 20px;
+}
+
+div.card-img {
+    height: 100px;
+    width: 100%;
+    background: url(https://picsum.photos/600/800);
+    background-size: cover;
+    background-position: center;
+}
+
+h2.card-heading {
+    margin-top: 0;
+}
+
+div.wrapper {
+    display: flex;
+    width: 60%;
+    margin: 10px auto;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p#greeting{
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2.card-heading{
+    text-align: center;
+}
+
+div.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(88, 197, 146, 0.6);
+}
+
+p.card-start-date {
+    padding-left:5px;
+}
+
+div.card-ui{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.card-ui a {
+    width: 45%;
+    padding: 5px inherit; /*наследование вложенного элемента*/
+    font-size:0.8 rem;
+    background: rgba(90, 133, 103, 0.7);
+    border-radius: 7px;
+}
+
+form {
+    display: none;
+    position: absolute;
+    top: 30vh;  /* высота экрана */
+    left: 40vw;   
+} 
+
+a#form-toggler{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 20px;
+    background: orange;
+    cursor: pointer;
+}
