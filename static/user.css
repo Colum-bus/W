@@ -6,6 +6,9 @@ body {
     height: initial;
 }
 
+h1{
+    color: rgba(88, 197, 146, 0.6);
+}
 div.card {
     width: 220px;
     margin: 20px;
@@ -14,7 +17,7 @@ div.card {
 div.card-img {
     height: 100px;
     width: 100%;
-    background: url(https://picsum.photos/600/800);
+    background: url(https://sun9-31.userapi.com/c858216/v858216773/1a7a1c/NmQihF-J0Sw.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -46,6 +49,7 @@ div.card{
     flex-direction: column;
     justify-content: space-between;
     background: rgba(88, 197, 146, 0.6);
+    box-shadow: 0 0 20px rgba(145, 123, 52, 0.5);
 }
 
 p.card-start-date {
@@ -61,7 +65,7 @@ div.card-ui a {
     width: 45%;
     padding: 5px inherit; /*наследование вложенного элемента*/
     font-size:0.8 rem;
-    background: rgba(90, 133, 103, 0.7);
+    background: rgba(99, 129, 153, 0.514);
     border-radius: 7px;
 }
 
